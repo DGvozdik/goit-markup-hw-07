@@ -7,32 +7,32 @@
     <title>WebStudio Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-      <header>
+      <header class="header">
         <!-- Logo -->
         <div class="container header-container">
             <a href="./index.html" class="logo logo-first">Web<span class="logo logo-end">Studio</span></a>
         <!-- Navigation -->
-        <nav>
-            <ul class="site-nav">
-                <li class="nav-li"><a href="./index.html" class="link">Студія</a></li>
-                <li class="nav-li"><a href="./portfolio.html" class="link  current">Портфоліо</a></li>
-                <li class="nav-li"><a href="./contacts.html" class="link">Контакти </a></li>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html" class="nav-link"  >Студія</a></li>
+                <li class="nav-item"><a href="./portfolio.html" class="nav-link current"  >Портфоліо</a></li>
+                <li class="nav-item"><a href="./contacts.html" class="nav-link"  >Контакти </a></li>
             </ul>
         </nav>
         <!-- Contacts -->
-        <ul class="contacts-header">
-            <li class="contacts-li">
+        <ul class="contacts">
+            <li class="contacts-item">
                 <a href="mailto:info@devstudio.com" class="contacts-link">
-                <svg class="header-icon" width="16" height="12">
+                <svg class="contacts-icon" width="16" height="12">
                     <use href="./images/icons.svg#icon-envelope-header"></use>
                 </svg> info@devstudio.com</a>
             </li>
-            <li class="contacts-li">
+            <li class="contacts-item">
                 <a href="tel:+380961111111" class="contacts-link">
-                <svg class="header-icon"  width="10" height="16">
+                <svg class="contacts-icon"  width="10" height="16">
                     <use href="./images/icons.svg#icon-smartphone-header"></use>
                 </svg>
                 +38 096 111 11 11</a>
@@ -250,10 +250,9 @@
             <form class="footer-form" action="">
                 <p>ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
                     <div class="mail-form">
-                        <label for="mail"></label>
                             <input type="email" name="mail" id="mail" lang="En" placeholder="E-mail">
                             <button class="footer-button" type="submit">
-                                <p>Підписатися</p>
+                                Підписатися
                                 <svg class="footer-telegram"  width="24" height="24">
                                     <use href="./images/icons.svg#icon-telegram"></use>
                                 </svg>
